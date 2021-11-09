@@ -276,6 +276,8 @@ class Board:
 
         if board_value == "orangepipc":
             board = boards.ORANGE_PI_PC
+        elif board_value == "orangepipc2":
+            board = boards.ORANGE_PI_PC_2
         elif board_value == "orangepi-r1":
             board = boards.ORANGE_PI_R1
         elif board_value == "orangepizero":
